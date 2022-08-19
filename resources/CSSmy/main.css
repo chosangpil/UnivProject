@@ -1,0 +1,167 @@
+main {
+    /* background-color: antiquewhite; */
+    width: 70%;
+    height: calc(100vh - 70px);
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+main .overview_slogan {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: relative;
+    top: 20px;
+}
+
+
+main .overview_slogan .slogan_title {
+    width: 80%;
+    /* background-color: red; */
+    position: relative;
+    top: 30px;
+    font-size: 1vw;
+    margin-bottom: 30px;
+}
+
+main .overview_list_blank {
+    width: 5%;
+    background-color: yellow;
+    float: left;
+    height: inherit;
+}
+
+main .targetImg .targetImg {
+    width: 90%;
+}
+
+
+@media (max-width:1200px) {
+    #img_body {
+        height: 800px;
+    }
+}
+
+@media (max-width:960px) {
+    #img_body {
+        height: 500px;
+    }
+}
+
+@media (max-width:720px) {
+    #img_body {
+        height: 300px;
+    }
+}
+
+/* 캠페인 인증 */
+
+.document_name {
+    white-space: nowrap;
+}
+
+
+/* 캠페인 범위  */
+
+.range_body {
+    position: relative;
+    padding: 0;
+}
+
+
+.outrange {
+    position: absolute;
+    /* display: flex; */
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%);
+    height: 230px;
+    width: 400px;
+    border-radius: 200px 200px 0 0;
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.range {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: end;
+}
+
+.range_value {
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px
+}
+
+@media (max-width:730px) {
+    .outrange {
+        width: 100%;
+        height: 80%;
+    }
+
+    .range {
+        width: 60%;
+        height: 40%
+    }
+
+    .range_value {
+        height: 20%;
+        font-size: large;
+    }
+}
+
+@media (min-width:1200px) {
+    .outrange {
+        width: 100%;
+        height: 95%;
+    }
+
+    .range {
+        width: 60%;
+        height: 53%;
+    }
+
+    .range_value {
+        height: 20%;
+        font-size: large;
+    }
+}
+
+.address {
+    width: 150px;
+    text-align: center;
+    color: cornsilk;
+}
+
+
+.campaign_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.campaign_Info {
+    overflow: auto;
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    position: inherit;
+
+}
